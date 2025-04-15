@@ -1,0 +1,73 @@
+##############VARIABLES
+DontPaintRootWindow
+ForceIcons                                                                   #Force Show Icons
+IconFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"          #Icon Font
+MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"          #Menu Font
+IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"   #Icon Manager Font
+TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"         #Title Font
+IconifyStyle "sweep"                                                         #Iconify Animation
+IconManagerGeometry "2600x10+250+1000" [8]                                   #Icon Manager Geometry
+RaiseOnClick                                                                 #Raise window on click
+RaiseOnClickButton 1                                                         #Raise window on left click
+ShowIconManager                                                              #Show icon manager
+#ShrinkIconTitles                                                             #Shrink Icon Titles
+IconSize "64x64"                                                             #Preferred Icon Size
+
+PixmapDirectory "/usr/include/X11/bitmaps:/usr/include/X11/bitmaps/icons"    #Custom directories for pixmap files
+IconRegion "1920x1080" North West 128 128 [left] [left] [center]             #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
+
+Icons                                                                        # Specify icons for apps
+{
+    "Brave-browser" "xpm:brave.xpm"
+    "kitty"         "xpm:terminal.xpm"   
+    "steam"         "xpm:steam.xpm"
+    "XTerm"         "xpm:terminal.xpm" 
+}
+
+
+
+MakeTitle                                                                    #Make Tilebars for specified windows
+{
+
+    "Brave-browser"
+
+}
+
+
+
+
+##################BINDINGS
+Button1 =                  : root   : f.menu "Yum"
+RightTitleButton "vertmax.xbm" = f.fullscreenzoom 
+RightTitleButton "close.xbm" {
+
+   Button1 = f.delete
+   Button3 = f.fullzoom
+
+}
+
+
+
+###########MENU
+
+Menu "Yum"
+{
+    "File Manager"           f.exec "thunar&"
+    "Terminal"               f.exec "xterm&"
+    "Brave"                  f.exec "/home/yeagerist/bin/brave/brave&"
+    "Lutris"                 f.exec "lutris&"
+    "Steam"                  f.exec "steam&"
+    "GIMP"                   f.exec "gimp&"    
+    
+    "Rice UP Babe !"         f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /usr/libexec/polkit-gnome-authentication-agent-1&"
+    "Enable Sound Service"   f.exec "pipewire&"
+    "Disable Sound Service"  f.exec "killall pipewire&"
+    "Increase Brightness++"  f.exec "xterm -e sudo /home/yeagerist/CTWMscripts/backlightup&"
+    "Decrease Brightness--"  f.exec "xterm -e sudo /home/yeagerist/CTWMscripts/backlightdown&"
+    "Turn Screen Off"        f.exec "sleep 1; xset dpms force off&"
+    "Restart ctwm"           f.restart
+    "Exit Session"           f.quit
+    "Reboot"                 f.exec "xterm -e sudo reboot&"
+    "Shutdown"               f.exec "xterm -e sudo poweroff&"
+    
+}
