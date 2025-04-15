@@ -1,0 +1,9 @@
+XTerm.termName: xterm-256color
+XTerm.vt100.saveLines: 5120
+XTerm.vt100.scrollBar: true
+XTerm.vt100.scrollbar.width: 8
+XTerm.vt100.foreground: #4d4d4d
+XTerm.vt100.background: #e6e6e6
+XTerm.vt100.faceName: Luxi Mono:size=11:antialias=true
+XTerm.vt100.scaleHeight: 1.01
+
