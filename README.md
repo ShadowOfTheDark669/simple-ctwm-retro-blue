@@ -113,6 +113,7 @@ Be sure to visit the following links:
 8. https://wiki.archlinux.org/title/Fonts
 9. https://wiki.archlinux.org/title/Font_configuration
 10. https://wiki.archlinux.org/title/Polkit
+11. https://linux.die.net/man/1/xterm
 
 ### Credits:
 
