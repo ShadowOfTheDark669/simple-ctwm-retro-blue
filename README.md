@@ -111,4 +111,10 @@ Be sure to visit the following links:
 8. https://wiki.archlinux.org/title/Fonts
 9. https://wiki.archlinux.org/title/Font_configuration
 
+### Credits:
+
+1. Software developers of the utilized software.
+2. https://github.com/junaidrahim/conky-clock?tab=readme-ov-file for Conky.conf
+3. WallpaperAbyss
+
 ### Cheers!
