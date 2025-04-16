@@ -25,6 +25,7 @@ A Minimal and Non-Invasive set of configurations to pair up a modern, usable and
 17. noto-fonts-cjk
 18. xfontsel
 19. xlsfonts
+20. pamixer
 
 
 Install these packages using your distro's package management tools and enable their service(s) if required.
