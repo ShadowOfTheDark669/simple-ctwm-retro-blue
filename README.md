@@ -112,6 +112,7 @@ Be sure to visit the following links:
 7. https://wiki.archlinux.org/title/X_Logical_Font_Description
 8. https://wiki.archlinux.org/title/Fonts
 9. https://wiki.archlinux.org/title/Font_configuration
+10. https://wiki.archlinux.org/title/Polkit
 
 ### Credits:
 
