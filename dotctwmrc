@@ -6,7 +6,7 @@ MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"          #Me
 IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"   #Icon Manager Font
 TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"         #Title Font
 IconifyStyle "sweep"                                                         #Iconify Animation
-IconManagerGeometry "2600x10+250+1000" [8]                                   #Icon Manager Geometry
+IconManagerGeometry       "2600x10+250+1000" [8]                             #Icon Manager Geometry
 RaiseOnClick                                                                 #Raise window on click
 RaiseOnClickButton 1                                                         #Raise window on left click
 ShowIconManager                                                              #Show icon manager
@@ -37,6 +37,7 @@ MakeTitle                                                                    #Ma
 
 
 ##################BINDINGS
+"f" = shift|control        : all    : f.exec "import /home/yeagerist/rice3.png&"
 Button1 =                  : root   : f.menu "Yum"
 RightTitleButton "vertmax.xbm" = f.fullscreenzoom 
 RightTitleButton "close.xbm" {
@@ -52,27 +53,27 @@ RightTitleButton "close.xbm" {
 
 Menu "Yum"
 {
-    "File Manager"                f.exec "thunar&"
-    "Terminal"                    f.exec "xterm&"
-    "Brave"                       f.exec "/home/yeagerist/bin/brave/brave&"
-    "Lutris"                      f.exec "lutris&"
-    "Steam"                       f.exec "steam&"
-    "GIMP"                        f.exec "gimp&"    
-    
-    "Rice UP Babe !"              f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /usr/libexec/polkit-gnome-authentication-agent-1&"
-    "Enable Sound Service"        f.exec "pipewire&"
-    "Disable Sound Service"       f.exec "killall pipewire&"
-    "Turn WIFI On"                f.exec "nmcli device connect wlp2s0&"
-    "Turn WIFI Off"               f.exec "nmcli device disconnect wlp2s0&"
-    "Refresh WIFI Networks"       f.exec "nmcli device wifi rescan&"
-    "Show Network Device Status"  f.exec "xterm -hold -e nmcli device status&"
-    "Show WIFI Networks"          f.exec "xterm -e nmcli device wifi list&"   
-    "Increase Brightness++"       f.exec "xterm -e sudo /home/yeagerist/CTWMscripts/backlightup&"
-    "Decrease Brightness--"       f.exec "xterm -e sudo /home/yeagerist/CTWMscripts/backlightdown&"
-    "Turn Screen Off"             f.exec "sleep 1; xset dpms force off&"
-    "Restart ctwm"                f.restart
-    "Exit Session"                f.quit
-    "Reboot"                      f.exec "xterm -e sudo reboot&"
-    "Shutdown"                    f.exec "xterm -e sudo poweroff&"
+    "File Manager"               f.exec "thunar&"
+    "Terminal"                   f.exec "xterm&"
+    "Brave"                      f.exec "/home/yeagerist/bin/brave/brave&"
+    "Lutris"                     f.exec "lutris&"
+    "Steam"                      f.exec "steam&"
+    "GIMP"                       f.exec "gimp&"    
+       
+    "Rice UP Babe !"             f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /usr/libexec/polkit-gnome-authentication-agent-1&"
+    "Enable Sound Service"       f.exec "pipewire&"
+    "Disable Sound Service"      f.exec "killall pipewire&" 
+    "Turn WIFI On"               f.exec "nmcli device connect wlp2s0&"
+    "Turn WIFI Off"              f.exec "nmcli device disconnect wlp2s0&"
+    "Refresh WIFI Networks"      f.exec "nmcli device wifi rescan&"
+    "Show Network Device Status" f.exec "xterm -hold -e nmcli device status&"
+    "Show WIFI Networks"         f.exec "xterm -e nmcli device wifi list&"   
+    "Increase Brightness++"      f.exec "xterm -e sudo /home/yeagerist/CTWMscripts/backlightup&"
+    "Decrease Brightness--"      f.exec "xterm -e sudo /home/yeagerist/CTWMscripts/backlightdown&"
+    "Turn Screen Off"            f.exec "sleep 1; xset dpms force off&"
+    "Restart ctwm"               f.restart
+    "Exit Session"               f.quit
+    "Reboot"                     f.exec "xterm -e sudo reboot&"
+    "Shutdown"                   f.exec "xterm -e sudo poweroff&"
     
 }
