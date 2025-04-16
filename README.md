@@ -61,12 +61,14 @@ Install these packages using your distro's package management tools and enable t
 5. Left click on windows below other windows raises them above.
 6. Left click on wallpaper/root window opens up a menu with several entries/functions.
 7. Right click on `close` button makes the window maximized. Right click again restores it to former size.
+8. `Shift+Control+F` allows to take screenshot using cursor.
+9. `Ctrl+F2` and `Ctrl+F3` allow to change the volume in increments/decrements of 10% of current relative volume.
 
 
 ### Tuning the RICE:
 #### .ctwmrc
 1. Paths of folders and files need to be adjusted according to your setup.
-2. Device specific commands like `nmcli` and similar need to be adjusted for your device. Ex: Use `nmcli device --help` and `nmcli device wifi --help` .
+2. Device specific commands like `nmcli`, `pactl` and similar need to be adjusted for your device. Ex: Use `nmcli device --help` and `nmcli device wifi --help` and `man pactl`.
 3. Icon Manager geometry maybe adjusted for other resolutions, see: https://www.x.org/archive/X11R6.8.1/doc/X.7.html#toc6 and https://www.ctwm.org/manpage.html#_variables .
 4. Icon Region maybe also adjusted for other resolutions, see: https://www.x.org/archive/X11R6.8.1/doc/X.7.html#toc6 and https://www.ctwm.org/manpage.html#_variables .
 
