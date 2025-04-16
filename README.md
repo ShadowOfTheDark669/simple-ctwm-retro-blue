@@ -27,6 +27,10 @@ A Minimal and Non-Invasive set of configurations to pair up a usable and good RE
 
 Install these packages using your distro's package management tools and enable their service(s) if required.
 
+### GTK and Icon themes:
+1. Doormaker GTK: https://www.xfce-look.org/p/2098041
+2. Elementary GTK icons: https://store.kde.org/p/1102953
+
 ### Installing the RICE:
 1. Download this repository.
 2. Unzip it in a desired folder.
