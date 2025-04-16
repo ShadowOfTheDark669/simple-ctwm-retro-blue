@@ -62,10 +62,12 @@ Install these packages using your distro's package management tools and enable t
 2. Device specific commands like `nmcli` and similar need to be adjusted for your device. Ex: Use `nmcli device --help` and `nmcli device wifi --help` .
 3. Icon Manager geometry maybe adjusted for other resolutions, see: https://www.x.org/archive/X11R6.8.1/doc/X.7.html#toc6 and https://www.ctwm.org/manpage.html#_variables .
 4. Icon Region maybe also adjusted for other resolutions, see: https://www.x.org/archive/X11R6.8.1/doc/X.7.html#toc6 and https://www.ctwm.org/manpage.html#_variables .
+
    Hint: The icon region is a region on the screen of desired size placed in the top or bottom or corner depending on the offsets described in the link(s) above.
          This region is then further divided into regions of size `x by y` as described in the CTWM manpage above and the icons placed inside these regions.
 
-5. For details on `Icons` , see https://www.ctwm.org/manpage.html#_variables.
+6. For details on `Icons` , see https://www.ctwm.org/manpage.html#_variables.
+
    Hint: Icons of some applications maybe off or too big/small, their transparent icons maybe obtained and resized using suitable software like GIMP.
    
 #### Picom
