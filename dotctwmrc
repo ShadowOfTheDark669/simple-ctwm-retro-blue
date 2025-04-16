@@ -39,8 +39,8 @@ MakeTitle                                                                    #Ma
 ##################BINDINGS
 "f"     = shift|control    : all    : f.exec "import /home/yeagerist/rice3.png&"
 Button1 =                  : root   : f.menu "Yum"
-"F2"    = control          : all    : f.exec " pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo -10%&"
-"F3"    = control          : all    : f.exec " pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo +10%&"
+"F2"    = control          : all    : f.exec "pamixer -d 10&"
+"F3"    = control          : all    : f.exec "pamixer -i 10&"
 RightTitleButton "vertmax.xbm" = f.fullscreenzoom 
 
 RightTitleButton "close.xbm" {
