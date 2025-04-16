@@ -62,7 +62,7 @@ Install these packages using your distro's package management tools and enable t
 6. Left click on wallpaper/root window opens up a menu with several entries/functions.
 7. Right click on `close` button makes the window maximized. Right click again restores it to former size.
 8. `Shift+Control+F` allows to take screenshot using cursor.
-9. `Ctrl+F2` and `Ctrl+F3` allow to change the volume in increments/decrements of 10% of current relative volume.
+9. `Ctrl+F2` and `Ctrl+F3` allow to change the volume in increments/decrements of 10% of the total volume.
 
 
 ### Tuning the RICE:
