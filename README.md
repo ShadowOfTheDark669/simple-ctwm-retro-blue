@@ -112,8 +112,7 @@ Install these packages using your distro's package management tools and enable t
          This region is then further divided into regions of size `x by y` as described in the CTWM manpage above and the icons are placed inside these regions.
 
 5. For details on `Icons` , see https://www.ctwm.org/manpage.html#_variables \
-   **Hint:** Icons of some applications maybe off or too big/small, their transparent icons maybe obtained, resized and exported in\
-   `.xpm` format using suitable software like GIMP.
+   **Hint:** Icons of some applications maybe off or too big/small, their transparent icons maybe obtained, resized and exported in `.xpm` format using suitable software like GIMP.
 
 7. For knowing the keyboard/mouse button names to be used for bindings, use the `xev` utility:
      - Open `xev` through terminal and hover the mouse over its window. The keypresses pressed afterwards while the `xev` window has focus will be captured and their name be displayed in the terminal output.    
