@@ -1,11 +1,7 @@
 #!/bin/bash
 
-function backlight {
-
-  intel_backlight=$(cat /sys/class/backlight/intel_backlight/brightness)
-  neuebacklight=$(( $intel_backlight + 10000 ))
-  echo $neuebacklight > /sys/class/backlight/intel_backlight/brightness   
+intel_backlight=$(cat /sys/class/backlight/intel_backlight/brightness)
+neuebacklight=$(( $intel_backlight + 10000 ))
+echo $neuebacklight > /sys/class/backlight/intel_backlight/brightness   
   
-}
 
-backlight
