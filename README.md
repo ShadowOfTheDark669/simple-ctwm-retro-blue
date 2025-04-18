@@ -69,16 +69,16 @@ Install these packages using your distro's package management tools and enable t
 ### Tuning the RICE:
 #### .ctwmrc
 1. Paths of folders and files need to be adjusted according to your setup.
-2. Device specific commands like `nmcli`, `pactl` and similar need to be adjusted for your device. Ex: Use `nmcli device --help` and `nmcli device wifi --help` and `man pactl`.
+2. Device specific commands like `nmcli`, `pactl` and similar need to be adjusted for your device. Ex: Use `nmcli device --help` and `nmcli device wifi --help`.
 3. Icon Manager geometry maybe adjusted for other resolutions, see: https://www.x.org/archive/X11R6.8.1/doc/X.7.html#toc6 and https://www.ctwm.org/manpage.html#_variables .
 4. Icon Region maybe also adjusted for other resolutions, see: https://www.x.org/archive/X11R6.8.1/doc/X.7.html#toc6 and https://www.ctwm.org/manpage.html#_variables .
 
    Hint: The icon region is a region on the screen of desired size placed in the top or bottom or corner depending on the offsets described in the link(s) above.
-         This region is then further divided into regions of size `x by y` as described in the CTWM manpage above and the icons placed inside these regions.
+         This region is then further divided into regions of size `x by y` as described in the CTWM manpage above and the icons are placed inside these regions.
 
 6. For details on `Icons` , see https://www.ctwm.org/manpage.html#_variables.
 
-   Hint: Icons of some applications maybe off or too big/small, their transparent icons maybe obtained and resized using suitable software like GIMP.
+   Hint: Icons of some applications maybe off or too big/small, their transparent icons maybe obtained, resized and exported in `.xpm` format using suitable software like GIMP.
 
 7. For knowing the keyboard/mouse button names to be used for bindings, use the `xev` utility. Open `xev` through terminal and hover the mouse over its window.
    The keypresses pressed afterwards while the `xev` window has focus will be captured and their name be displayed in the terminal output.    
@@ -93,7 +93,7 @@ Install these packages using your distro's package management tools and enable t
    1. `intel_backlight=$(cat /sys/class/backlight/intel_backlight/brightness)`
    2. `echo $neuebacklight > /sys/class/backlight/intel_backlight/brightness`   
    
-   In both the scripts: `backlightup` and `backlightdown` with your folder name respectively. See: https://wiki.archlinux.org/title/Backlight , section 1.Hardware Interfaces:1.1 ACPI
+   In both the scripts: `backlightup` and `backlightdown` with your folder name respectively. See: https://wiki.archlinux.org/title/Backlight , section 1. Hardware Interfaces:1.1 ACPI
 
 #### Fonts
 10. Font size maybe be adjusted for other resolutions. See: https://wiki.archlinux.org/title/X_Logical_Font_Description and `xfontsel` utility.
@@ -122,6 +122,6 @@ Be sure to visit the following links:
 
 1. Software developers of the utilized software.
 2. https://github.com/junaidrahim/conky-clock?tab=readme-ov-file for Conky.conf
-3. WallpaperAbyss
+3. WallpaperAbyss for the wallpaper.
 
 ### Cheers!
