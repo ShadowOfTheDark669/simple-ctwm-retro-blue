@@ -41,14 +41,18 @@ MakeTitle                                                                    #Ma
 Button1 =                  : root   : f.menu "Yum"
 "F2"    = control          : all    : f.exec "pamixer -d 10&"
 "F3"    = control          : all    : f.exec "pamixer -i 10&"
-RightTitleButton "vertmax.xbm" = f.fullscreenzoom 
 
-RightTitleButton "close.xbm" {
+RightTitleButton "vertmax.xbm" {
 
-   Button1 = f.delete
+   Button1 = f.fullscreen
    Button3 = f.fullzoom
 
 }
+
+RightTitleButton "close.xbm" = f.delete
+   
+
+
 
 
 
