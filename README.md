@@ -36,7 +36,7 @@ Install these packages using your distro's package management tools and enable t
 1. **Doormaker GTK:** https://www.xfce-look.org/p/2098041
 2. **Elementary GTK icons:** https://store.kde.org/p/1102953
 3. **Font:** Luxi Mono Family
-
+4. **Wallpaper:** https://wall.alphacoders.com/big.php?i=1371840
 ---
 
 ## **Installing the RICE:**
