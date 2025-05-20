@@ -1,22 +1,22 @@
 ##############VARIABLES
 DontPaintRootWindow
-ForceIcons                                                                   #Force Show Icons
-IconFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"          #Icon Font
-MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"          #Menu Font
-IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"   #Icon Manager Font
-TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"         #Title Font
-IconifyStyle "sweep"                                                         #Iconify Animation
-IconManagerGeometry       "2600x10+260+1000" [8]                             #Icon Manager Geometry
-RaiseOnClick                                                                 #Raise window on click
-RaiseOnClickButton 1                                                         #Raise window on left click
-ShowIconManager                                                              #Show icon manager
-#ShrinkIconTitles                                                             #Shrink Icon Titles
-IconSize "64x64"                                                             #Preferred Icon Size
+ForceIcons                                                                        #Force Show Icons
+IconFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"               #Icon Font
+MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"               #Menu Font
+IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"        #Icon Manager Font
+TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"              #Title Font
+IconifyStyle "sweep"                                                              #Iconify Animation
+IconManagerGeometry       "1780x30+266+962" [12]                                  #Icon Manager Geometry
+RaiseOnClick                                                                      #Raise window on click
+RaiseOnClickButton 1                                                              #Raise window on left click
+ShowIconManager                                                                   #Show icon manager
+#ShrinkIconTitles                                                                 #Shrink Icon Titles
+IconSize "64x64"                                                                  #Preferred Icon Size
 
-PixmapDirectory "/usr/include/X11/bitmaps:/usr/include/X11/bitmaps/icons"    #Custom directories for pixmap files
-IconRegion "1920x1080" North West 128 128 [left] [left] [center]             #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
+PixmapDirectory "/usr/include/X11/bitmaps:/usr/include/X11/bitmaps/icons"         #Custom directories for pixmap files
+IconRegion "1820x1000+50+10" North West 128 128 [left] [left] [center]            #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
 
-Icons                                                                        # Specify icons for apps
+Icons                                                                             # Specify icons for apps
 {
     "Brave-browser" "xpm:brave.xpm"
     "kitty"         "xpm:terminal.xpm"   
@@ -26,7 +26,7 @@ Icons                                                                        # S
 
 
 
-MakeTitle                                                                    #Make Tilebars for specified windows
+MakeTitle                                                                          #Make Tilebars for specified windows
 {
 
     "Brave-browser"
@@ -36,22 +36,20 @@ MakeTitle                                                                    #Ma
 
 
 
-##################BINDINGS
-"f"     = shift|control    : all    : f.exec "import /home/yeagerist/rice3.png&"
-Button1 =                  : root   : f.menu "Yum"
-"F2"    = control          : all    : f.exec "pamixer -d 10&"
-"F3"    = control          : all    : f.exec "pamixer -i 10&"
+##################KEYBOARD#######AND########OR########MOUSE######BINDINGS
+"f"     = shift|control    : all    : f.exec "import /home/yeagerist/rice3.png&"   #Take a screenshot and save it as the specified file
+Button1 =                  : root   : f.menu "Yum"                                 #Open the described menu
+"F2"    = control          : all    : f.exec "pamixer -d 10&"                      #Decrease volume
+"F3"    = control          : all    : f.exec "pamixer -i 10&"                      #Increase volume
 
-RightTitleButton "vertmax.xbm" {
+RightTitleButton "vertmax.xbm" {                                                   #Maximize or fullscreen button
 
-   Button1 = f.fullscreen
-   Button3 = f.fullzoom
+   Button1 = f.fullzoom                                 
+   Button3 = f.fullscreenzoom
 
 }
 
-RightTitleButton "close.xbm" = f.delete
-   
-
+RightTitleButton "close.xbm" = f.delete                                            #Close window button
 
 
 
@@ -62,8 +60,9 @@ Menu "Yum"
 {
     "File Manager"               f.exec "thunar&"
     "Terminal"                   f.exec "xterm&"
-    "Brave"                      f.exec "/home/yeagerist/bin/brave/brave&"
+    "Brave"                      f.exec "cd /home/yeagerist/bin/brave && ./brave&"
     "Lutris"                     f.exec "lutris&"
+    "86Box"                      f.exec "cd /cstmnt/LGamerX/EMULATORS/86Box[E] && ./86Box-Linux.AppImage&"
     "Steam"                      f.exec "steam&"
     "GIMP"                       f.exec "gimp&"    
        
