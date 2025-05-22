@@ -2,7 +2,9 @@
 A Minimal and Non-Invasive set of configurations to pair up a modern, usable and good RETRO looking CTWM setup
 
 ## **CTWM Retro Rice**
-![rice3](https://github.com/user-attachments/assets/dbe545d2-15f0-4477-9e4b-0ee2dbef204c)
+![rice3](https://github.com/user-attachments/assets/f117edd2-c5c5-4f46-91e1-785019020188)
+![rice5](https://github.com/user-attachments/assets/1a30b994-fa1e-44c4-9b68-2e5548afc4d7)
+
 
 ## **Installation:**
 ### Required Packages:
