@@ -6,7 +6,7 @@ MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"             
 IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"        #Icon Manager Font
 TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"              #Title Font
 IconifyStyle "sweep"                                                              #Iconify Animation
-IconManagerGeometry       "1780x30+266+962" [12]                                  #Icon Manager Geometry
+IconManagerGeometry       "1630x30+266+962" [11]                                  #Icon Manager Geometry
 RaiseOnClick                                                                      #Raise window on click
 RaiseOnClickButton 1                                                              #Raise window on left click
 ShowIconManager                                                                   #Show icon manager
