@@ -18,15 +18,16 @@ A Minimal and Non-Invasive set of configurations to pair up a modern, usable and
 9. thunar
 10. pipewire
 11. polkit-gnome
-12. pipewire
-13. nmcli
-14. dejavu-fonts-ttf
-15. xorg-fonts
-16. noto-fonts-ttf
-17. noto-fonts-cjk
-18. xfontsel
-19. xlsfonts
-20. pamixer
+12. nmcli
+13. dejavu-fonts-ttf
+14. xorg-fonts
+15. noto-fonts-ttf
+16. noto-fonts-cjk
+17. xfontsel
+18. xlsfonts
+19. pamixer
+20. xdg-desktop-portal
+21. xdg-desktop-portal-gtk
 ```
 Install these packages using your distro's package management tools and enable their service(s) if required.
 
