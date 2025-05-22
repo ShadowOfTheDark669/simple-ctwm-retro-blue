@@ -13,23 +13,22 @@ A Minimal and Non-Invasive set of configurations to pair up a modern, usable and
 2. feh
 3. picom
 4. xrdb
-5. xfontsel
-6. xev
-7. xterm
-8. conky
-9. thunar
-10. pipewire
-11. polkit-gnome
-12. nmcli
-13. dejavu-fonts-ttf
-14. xorg-fonts
-15. noto-fonts-ttf
-16. noto-fonts-cjk
-17. xfontsel
-18. xlsfonts
-19. pamixer
-20. xdg-desktop-portal
-21. xdg-desktop-portal-gtk
+5. xev
+6. xterm
+7. conky
+8. thunar
+9. pipewire
+10. polkit-gnome
+11. nmcli
+12. dejavu-fonts-ttf
+13. xorg-fonts
+14. noto-fonts-ttf
+15. noto-fonts-cjk
+16. xfontsel
+17. xlsfonts
+18. pamixer
+19. xdg-desktop-portal
+20. xdg-desktop-portal-gtk
 ```
 Install these packages using your distro's package management tools and enable their service(s) if required.
 
