@@ -91,9 +91,8 @@ Install these packages using your distro's package management tools and enable t
 4. Conky Widget to display date and time.
 5. Left click on windows below other windows raises them above.
 6. Left click on wallpaper/root window opens up a menu with several entries/functions.
-7. Right click on `close` button makes the window maximized. Right click again restores it to former size.
-8. `Shift+Control+F` allows to take screenshot using cursor.
-9. `Ctrl+F2` and `Ctrl+F3` allow to change the volume in increments/decrements of 10% of the total volume.
+7. `Shift+Control+F` allows to take screenshot using cursor.
+8. `Ctrl+F2` and `Ctrl+F3` allow to change the volume in increments/decrements of 10% of the total volume.
 
 ---
 
