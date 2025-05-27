@@ -79,7 +79,14 @@ Menu "Yum"
     "--------------"             f.exec ""
     "Restart ctwm"               f.restart
     "Exit Session"               f.quit
-    "Reboot"                     f.exec "xterm -e sudo reboot&"
-    "Shutdown"                   f.exec "xterm -e sudo poweroff&"
+    "--------------"             f.exec ""
+    "Sleep"                      f.exec "loginctl suspend&"
+    "Hibernate"                  f.exec "loginctl hibernate&"
+    "Reboot"                     f.exec "loginctl reboot&"
+    "Shutdown"                   f.exec "loginctl poweroff&"
+    "--------------"             f.exec ""     
+
+#    "Reboot"                     f.exec "xterm -e sudo reboot&"
+#    "Shutdown"                   f.exec "xterm -e sudo poweroff&"
     
 }
