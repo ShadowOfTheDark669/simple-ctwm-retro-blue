@@ -29,6 +29,8 @@ A Minimal and Non-Invasive set of configurations to pair up a modern, usable and
 18. pamixer
 19. xdg-desktop-portal
 20. xdg-desktop-portal-gtk
+21. loginctl
+22. i3lock-color
 ```
 Install these packages using your distro's package management tools and enable their service(s) if required.
 
