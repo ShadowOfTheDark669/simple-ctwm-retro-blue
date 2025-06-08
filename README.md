@@ -133,9 +133,12 @@ A sample configuration maybe obtained from: `/usr/share/examples/picom` .
 
 #### **CTWMscripts**
 Replace `intel_backlight` in lines:
-      
- 1. `intel_backlight=$(cat /sys/class/backlight/intel_backlight/brightness)`
- 2. `echo $neuebacklight > /sys/class/backlight/intel_backlight/brightness`   
+
+```
+intel_backlight=$(cat /sys/class/backlight/intel_backlight/brightness)
+neuebacklight=$(( $intel_backlight - 10000 ))
+echo $neuebacklight|sudo tee /sys/class/backlight/intel_backlight/brightness      
+```
    
 In both the scripts: `backlightup` and `backlightdown` with your folder name respectively.\
 **See:** https://wiki.archlinux.org/title/Backlight , section 1. Hardware Interfaces:1.1 ACPI
