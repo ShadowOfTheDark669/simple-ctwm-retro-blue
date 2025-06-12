@@ -30,7 +30,7 @@ A Minimal and Non-Invasive set of configurations to pair up a modern, usable and
 19. xdg-desktop-portal
 20. xdg-desktop-portal-gtk
 21. loginctl
-22. i3lock-color
+22. alttab
 ```
 Install these packages using your distro's package management tools and enable their service(s) if required.
 
@@ -96,8 +96,8 @@ Install these packages using your distro's package management tools and enable t
 7. `Shift+Control+F` allows to take screenshot using cursor.
 8. `Ctrl+F2` and `Ctrl+F3` allow to change the volume in increments/decrements of 10% of the total volume.
 9. Sleep and suspend available from the left-click menu.
-10. Lockscreen form the left-click menu as well.
-
+10. Configurable Alt-tab menu.
+    
 ---
 
 ## **Tuning the RICE:**
@@ -155,6 +155,8 @@ Font size maybe be adjusted for other resolutions.\
 All the entries in the menu that appears upon left-clicking on the wallpaper/root-window are pretty much self explanatory.
 
 ---
+#### **Alt-Tab**
+**See:** https://github.com/sagb/alttab
 
 ### **End**
 
@@ -174,6 +176,7 @@ Be sure to visit the following links:
 9. https://wiki.archlinux.org/title/Font_configuration
 10. https://wiki.archlinux.org/title/Polkit
 11. https://linux.die.net/man/1/xterm
+12. https://github.com/sagb/alttab
 
 ---
 
