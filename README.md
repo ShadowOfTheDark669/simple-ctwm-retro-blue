@@ -151,12 +151,15 @@ Font size maybe be adjusted for other resolutions.\
 
 ---
    
+#### **Alt-Tab**
+**See:** https://github.com/sagb/alttab
+
+---
+
 #### **Other**
 All the entries in the menu that appears upon left-clicking on the wallpaper/root-window are pretty much self explanatory.
 
 ---
-#### **Alt-Tab**
-**See:** https://github.com/sagb/alttab
 
 ### **End**
 
