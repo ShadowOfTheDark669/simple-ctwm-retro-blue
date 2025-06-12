@@ -152,7 +152,7 @@ Font size maybe be adjusted for other resolutions.\
 ---
    
 #### **Alt-Tab**
-**See:** https://github.com/sagb/alttab\ 
+**See:** https://github.com/sagb/alttab \
 **And:** https://github.com/sagb/alttab/blob/master/doc/alttab.1.ronn
 
 
