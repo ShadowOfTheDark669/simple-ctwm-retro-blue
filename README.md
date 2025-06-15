@@ -151,7 +151,8 @@ For the script `alttab` , \
 
 #### **Fonts**
 Font size maybe be adjusted for other resolutions.\
-**See:** https://wiki.archlinux.org/title/X_Logical_Font_Description and `xfontsel` utility.
+**See:** https://wiki.archlinux.org/title/X_Logical_Font_Description and `xfontsel` utility. \
+**See:** https://wiki.archlinux.org/title/Fonts
 
 ---
    
