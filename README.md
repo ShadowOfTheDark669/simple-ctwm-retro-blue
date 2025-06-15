@@ -143,6 +143,10 @@ echo $neuebacklight|sudo tee /sys/class/backlight/intel_backlight/brightness
 In both the scripts: `backlightup` and `backlightdown` with your folder name respectively.\
 **See:** https://wiki.archlinux.org/title/Backlight , section 1. Hardware Interfaces:1.1 ACPI
 
+For the script `alttab` , \
+**See:** https://github.com/sagb/alttab \
+**And:** https://github.com/sagb/alttab/blob/master/doc/alttab.1.ronn
+
 ---
 
 #### **Fonts**
@@ -151,13 +155,6 @@ Font size maybe be adjusted for other resolutions.\
 
 ---
    
-#### **Alt-Tab**
-**See:** https://github.com/sagb/alttab \
-**And:** https://github.com/sagb/alttab/blob/master/doc/alttab.1.ronn
-
-
----
-
 #### **Other**
 All the entries in the menu that appears upon left-clicking on the wallpaper/root-window are pretty much self explanatory.
 
