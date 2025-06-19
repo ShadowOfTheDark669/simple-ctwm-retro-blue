@@ -30,7 +30,7 @@ MakeTitle                                                                       
 {
 
     "Brave-browser"
-
+    
 }
 
 
@@ -66,7 +66,7 @@ Menu "Yum"
     "Steam"                      f.exec "steam&"
     "GIMP"                       f.exec "gimp&"    
     "Flameshot"                  f.exec "cd /home/yeagerist/bin/flameshot && flameshot gui&"
-    "Rice UP Babe !"             f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /usr/libexec/polkit-gnome-authentication-agent-1& pipewire& /home/yeagerist/CTWMscripts/alttab&"
+    "Rice UP Babe !"             f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /home/yeagerist/CTWMscripts/mouseaccel && /usr/libexec/polkit-gnome-authentication-agent-1& pipewire& /home/yeagerist/CTWMscripts/alttab&"
     "--------------"             f.exec ""
     "Turn WIFI On"               f.exec "nmcli device connect wlp2s0&"
     "Turn WIFI Off"              f.exec "nmcli device disconnect wlp2s0&"
