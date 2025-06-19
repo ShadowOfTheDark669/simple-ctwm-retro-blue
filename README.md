@@ -149,6 +149,11 @@ For the script `alttab` , \
 
 ---
 
+For the script `mouseaccel` , \
+**See:** https://wiki.archlinux.org/title/Mouse_acceleration#Mouse_acceleration_with_libinput
+
+---
+
 #### **Fonts**
 Font size maybe be adjusted for other resolutions.\
 **See:** https://wiki.archlinux.org/title/X_Logical_Font_Description and `xfontsel` utility. \
@@ -180,7 +185,7 @@ Be sure to visit the following links:
 10. https://wiki.archlinux.org/title/Polkit
 11. https://linux.die.net/man/1/xterm
 12. https://github.com/sagb/alttab
-
+13. https://wiki.archlinux.org/title/Mouse_acceleration#Mouse_acceleration_with_libinput
 ---
 
 ## **Credits:**
