@@ -6,7 +6,7 @@ MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"             
 IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"        #Icon Manager Font
 TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"              #Title Font
 IconifyStyle "sweep"                                                              #Iconify Animation
-IconManagerGeometry       "1630x30+266+962" [11]                                  #Icon Manager Geometry
+IconManagerGeometry       "1630x30+266+962" 11                                    #Icon Manager Geometry
 RaiseOnClick                                                                      #Raise window on click
 RaiseOnClickButton 1                                                              #Raise window on left click
 ShowIconManager                                                                   #Show icon manager
@@ -14,7 +14,7 @@ ShowIconManager                                                                 
 IconSize "64x64"                                                                  #Preferred Icon Size
 
 PixmapDirectory "/usr/include/X11/bitmaps:/usr/include/X11/bitmaps/icons"         #Custom directories for pixmap files
-IconRegion "1820x1000+50+10" North West 128 128 [left] [left] [center]            #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
+IconRegion "1820x1000+50+10" North West 128 128 left left center                  #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
 
 Icons                                                                             # Specify icons for apps
 {
@@ -22,6 +22,10 @@ Icons                                                                           
     "kitty"         "xpm:terminal.xpm"   
     "steam"         "xpm:steam.xpm"
     "XTerm"         "xpm:terminal.xpm" 
+    "FreeTube"      "xpm:freetube.xpm"
+    "peazip"        "xpm:peazip.xpm"
+    "motrix"        "xpm:motrix.xpm"
+
 }
 
 
@@ -60,12 +64,12 @@ Menu "Yum"
 {
     "File Manager"               f.exec "thunar&"
     "Terminal"                   f.exec "xterm&"
-    "Brave"                      f.exec "cd /home/yeagerist/bin/brave && brave&"
-    "FreeTube"                   f.exec "cd /home/yeagerist/bin/brave && freetube&"
+    "Brave"                      f.exec "brave&"
+    "FreeTube"                   f.exec "freetube&"
     "Lutris"                     f.exec "lutris&"
     "Steam"                      f.exec "steam&"
     "GIMP"                       f.exec "gimp&"    
-    "Flameshot"                  f.exec "cd /home/yeagerist/bin/flameshot && flameshot gui&"
+    "Flameshot"                  f.exec "flameshot gui&"
     "Rice UP Babe !"             f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /home/yeagerist/CTWMscripts/mouseaccel && /usr/libexec/polkit-gnome-authentication-agent-1& pipewire& /home/yeagerist/CTWMscripts/alttab&"
     "--------------"             f.exec ""
     "Turn WIFI On"               f.exec "nmcli device connect wlp2s0&"
@@ -79,6 +83,7 @@ Menu "Yum"
     "Turn Screen Off"            f.exec "sleep 1; xset dpms force off&"
     "--------------"             f.exec ""
     "Restart ctwm"               f.restart
+    "Lock Session"               f.exec "/home/yeagerist/CTWMscripts/lockscreen && sleep 1; xset dpms force off&"
     "Exit Session"               f.quit
     "--------------"             f.exec ""
     "Sleep"                      f.exec "loginctl suspend"
