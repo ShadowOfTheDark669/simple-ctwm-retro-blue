@@ -6,4 +6,8 @@ XTerm.vt100.foreground: #4d4d4d
 XTerm.vt100.background: #e6e6e6
 XTerm.vt100.faceName: Luxi Mono:size=11:antialias=true
 XTerm.vt100.scaleHeight: 1.01
+XTerm.vt100.selectToClipboard: true 
+XTerm.vt100.translations: #override \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
 
