@@ -6,7 +6,7 @@ MenuFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"             
 IconManagerFont "-b&h-luxi mono-medium-o-normal-*-*-*-*-*-m-*-microsoft-*"        #Icon Manager Font
 TitleFont "-b&h-luxi mono-medium-r-normal-*-*-*-*-*-m-*-microsoft-*"              #Title Font
 IconifyStyle "sweep"                                                              #Iconify Animation
-IconManagerGeometry       "1630x30+266+962" 11                                    #Icon Manager Geometry
+IconManagerGeometry       "1630x30+305+961" 11                                    #Icon Manager Geometry
 RaiseOnClick                                                                      #Raise window on click
 RaiseOnClickButton 1                                                              #Raise window on left click
 ShowIconManager                                                                   #Show icon manager
@@ -14,7 +14,7 @@ ShowIconManager                                                                 
 IconSize "64x64"                                                                  #Preferred Icon Size
 
 PixmapDirectory "/usr/include/X11/bitmaps:/usr/include/X11/bitmaps/icons"         #Custom directories for pixmap files
-IconRegion "1820x1000+50+10" North West 128 128 left left center                  #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
+IconRegion "1820x1000+50+10" North West 128 128 "left" "left" "center"            #Place icons on a region of 1920x1080 pixels wide with smaller grid-like subdivisions 64x64 pixels wide
 
 Icons                                                                             # Specify icons for apps
 {
@@ -28,12 +28,22 @@ Icons                                                                           
 
 }
 
+Color
+{
+    MenuBackground        "#c8e0d8"
+    MenuForeground        "#000080"
+    TitleForeground       "#2a2f2f"
+    TitleBackground       "#88c0b8"
+    BorderColor           "black"
+    IconBackground        "#c8e0d8"
+    IconManagerBackground "#c8e0d8"
+
+}
 
 
 MakeTitle                                                                          #Make Tilebars for specified windows
 {
-
-    "Brave-browser"
+   "Brave-browser"
     
 }
 
@@ -64,7 +74,7 @@ Menu "Yum"
 {
     "File Manager"               f.exec "thunar&"
     "Terminal"                   f.exec "xterm&"
-    "Brave"                      f.exec "brave&"
+    "Vivaldi"                    f.exec "vivaldi-stable&"
     "FreeTube"                   f.exec "freetube&"
     "Lutris"                     f.exec "lutris&"
     "Steam"                      f.exec "steam&"
