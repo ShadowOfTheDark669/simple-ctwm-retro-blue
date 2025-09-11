@@ -93,7 +93,6 @@ Menu "Yum"
     "Turn Screen Off"            f.exec "sleep 1; xset dpms force off&"
     "--------------"             f.exec ""
     "Restart ctwm"               f.restart
-    "Lock Session"               f.exec "/home/yeagerist/CTWMscripts/lockscreen && sleep 1; xset dpms force off&"
     "Exit Session"               f.quit
     "--------------"             f.exec ""
     "Sleep"                      f.exec "loginctl suspend"
