@@ -2,8 +2,9 @@
 A Minimal and Non-Invasive set of configurations to pair up a modern, usable and good RETRO looking CTWM setup
 
 ## **CTWM Retro Rice**
-![rice3](https://github.com/user-attachments/assets/f117edd2-c5c5-4f46-91e1-785019020188)
-![rice5](https://github.com/user-attachments/assets/1a30b994-fa1e-44c4-9b68-2e5548afc4d7)
+<img width="1920" height="1080" alt="CTWMRice1" src="https://github.com/user-attachments/assets/001d2d64-6567-4135-ad41-f64a20d54f35" />
+<img width="1920" height="1080" alt="CTWMRice2" src="https://github.com/user-attachments/assets/29a4073d-3d73-4325-b137-f64564d23229" />
+<img width="1920" height="1080" alt="CTWMRice3" src="https://github.com/user-attachments/assets/fde97f62-7159-476a-ad1b-9ac8512ac33e" />
 
 
 ## **Installation:**
@@ -37,7 +38,7 @@ Install these packages using your distro's package management tools and enable t
 ---
 
 ## **GTK,Icon themes and Font:**
-1. **Doormaker GTK:** https://www.xfce-look.org/p/2098041
+1. **Redmond97 SE GTK (Choose Marine theme from the downloaded zip file !):** https://www.gnome-look.org/p/2287265
 2. **Elementary GTK icons:** https://store.kde.org/p/1102953
 3. **Font:** Luxi Mono Family
 4. **Wallpaper:** https://wall.alphacoders.com/big.php?i=1371840
