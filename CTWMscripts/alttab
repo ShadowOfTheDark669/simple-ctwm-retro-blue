@@ -1,2 +1,2 @@
 #!/bin/bash
-alttab -w 1 -bg '#c0c0c1' -fg '#2a2a2a' -frame '#52bedb' -font xft:"Luxi Mono-Regular-12"
+alttab -w 1 -bg '#c8e0d8' -fg '#2a2a2a' -frame '#88c0b8' -font xft:" Shofar-12:style=Regular"
