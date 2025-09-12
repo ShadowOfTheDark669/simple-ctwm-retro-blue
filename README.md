@@ -38,10 +38,17 @@ Install these packages using your distro's package management tools and enable t
 ---
 
 ## **GTK,Icon themes and Font:**
-1. **Redmond97 SE GTK (Choose Marine theme from the downloaded zip file !):** https://www.gnome-look.org/p/2287265
-2. **Elementary GTK icons:** https://store.kde.org/p/1102953
-3. **Font:** Luxi Mono Family
-4. **Wallpaper:** https://wall.alphacoders.com/big.php?i=1371840
+1. ### **<ins>Redmond97 SE GTK</ins> (Choose Marine theme from the downloaded zip file !):**
+   https://www.gnome-look.org/p/2287265
+
+2. ### **<ins>Elementary GTK icons</ins>:**
+   https://store.kde.org/p/1102953
+
+3. ### **<ins>Fonts</ins>:**
+- Luxi Mono Family (for CTWM)
+- Shofar Regular (for GTK apps and `alttab`)
+
+4. ### **<ins>Wallpaper</ins>:** https://wall.alphacoders.com/big.php?i=1371840
 ---
 
 ## **Installing the RICE:**
@@ -128,7 +135,7 @@ Install these packages using your distro's package management tools and enable t
 #### **Picom**
 For tuning the picom compositor: \
 **See:** https://github.com/yshui/picom/blob/next/man/picom.1.adoc \
-A sample configuration maybe obtained from: `/usr/share/examples/picom` .
+A sample configuration maybe obtained from: `/usr/share/examples/picom` 
 
 ---
 
@@ -145,8 +152,10 @@ In both the scripts: `backlightup` and `backlightdown` with your folder name res
 **See:** https://wiki.archlinux.org/title/Backlight , section 1. Hardware Interfaces:1.1 ACPI
 
 For the script `alttab` , \
-**See:** https://github.com/sagb/alttab \
-**And:** https://github.com/sagb/alttab/blob/master/doc/alttab.1.ronn
+**See:** \
+https://github.com/sagb/alttab \
+https://github.com/sagb/alttab/blob/master/doc/alttab.1.ronn \
+https://linux.die.net/man/1/fc-list (for configuring fonts for `alttab`)          
 
 ---
 
@@ -187,6 +196,7 @@ Be sure to visit the following links:
 11. https://linux.die.net/man/1/xterm
 12. https://github.com/sagb/alttab
 13. https://wiki.archlinux.org/title/Mouse_acceleration#Mouse_acceleration_with_libinput
+14. https://linux.die.net/man/1/fc-list
 ---
 
 ## **Credits:**
