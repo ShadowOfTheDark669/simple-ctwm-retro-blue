@@ -18,13 +18,14 @@ IconRegion "1820x1000+50+10" North West 128 128 "left" "left" "center"          
 
 Icons                                                                             # Specify icons for apps
 {
-    "Brave-browser" "xpm:brave.xpm"
-    "kitty"         "xpm:terminal.xpm"   
-    "steam"         "xpm:steam.xpm"
-    "XTerm"         "xpm:terminal.xpm" 
-    "FreeTube"      "xpm:freetube.xpm"
-    "peazip"        "xpm:peazip.xpm"
-    "motrix"        "xpm:motrix.xpm"
+    "Brave-browser"   "xpm:brave.xpm"
+    "kitty"           "xpm:terminal.xpm"   
+    "steam"           "xpm:steam.xpm"
+    "XTerm"           "xpm:terminal.xpm" 
+    "FreeTube"        "xpm:freetube.xpm"
+    "peazip"          "xpm:peazip.xpm"
+    "motrix"          "xpm:motrix.xpm"
+    "vivaldi-stable"  "xpm:vivaldi.xpm"
 
 }
 
@@ -74,13 +75,13 @@ Menu "Yum"
 {
     "File Manager"               f.exec "thunar&"
     "Terminal"                   f.exec "xterm&"
-    "Vivaldi"                    f.exec "vivaldi-stable&"
+    "Vivaldi"                    f.exec "vivaldi-stable --password-store=gnome-libsecret&"
     "FreeTube"                   f.exec "freetube&"
     "Lutris"                     f.exec "lutris&"
     "Steam"                      f.exec "steam&"
     "GIMP"                       f.exec "gimp&"    
     "Flameshot"                  f.exec "flameshot gui&"
-    "Rice UP Babe !"             f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /home/yeagerist/CTWMscripts/mouseaccel && /usr/libexec/polkit-gnome-authentication-agent-1& pipewire& /home/yeagerist/CTWMscripts/alttab&"
+    "Rice UP Babe !"             f.exec "picom -b --config /home/yeagerist/.config/picom.conf && feh --bg-scale /home/yeagerist/Wallpapers/1371840.png && conky -c /home/yeagerist/.config/conky/conky.conf && xrdb /home/yeagerist/.config/X11/Xresources && /home/yeagerist/CTWMscripts/mouseaccel& /usr/libexec/polkit-gnome-authentication-agent-1& killall pipewire && pipewire& /home/yeagerist/CTWMscripts/alttab&"
     "--------------"             f.exec ""
     "Turn WIFI On"               f.exec "nmcli device connect wlp2s0&"
     "Turn WIFI Off"              f.exec "nmcli device disconnect wlp2s0&"
