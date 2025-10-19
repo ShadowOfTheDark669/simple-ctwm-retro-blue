@@ -157,8 +157,6 @@ https://github.com/sagb/alttab \
 https://github.com/sagb/alttab/blob/master/doc/alttab.1.ronn \
 https://linux.die.net/man/1/fc-list (for configuring fonts for `alttab`)          
 
----
-
 For the script `mouseaccel` , \
 **See:** https://wiki.archlinux.org/title/Mouse_acceleration#Mouse_acceleration_with_libinput
 
