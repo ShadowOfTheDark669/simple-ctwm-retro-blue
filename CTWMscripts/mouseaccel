@@ -1,2 +1,5 @@
 #!/bin/bash
-xinput --set-prop 14 'libinput Accel Speed' 0.90
+ID=$(xinput|grep Mouse|grep -oP 'id=\K\d+')
+
+xinput set-prop $ID "libinput Accel Profile Enabled" 0 1 0
+xinput --set-prop $ID 'libinput Accel Speed' 1.00
