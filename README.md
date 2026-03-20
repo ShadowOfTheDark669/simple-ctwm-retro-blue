@@ -161,6 +161,14 @@ For the script `mouseaccel` , \
 **See:** https://wiki.archlinux.org/title/Mouse_acceleration#Mouse_acceleration_with_libinput
 
 ---
+#### **Backlight Polkit policy**
+Edit the following section in `/usr/share/polkit-1/actions/ctwm.custom.backlight.policy` to change the backlight script path according to your setup: 
+
+```
+<annotate key="org.freedesktop.policykit.exec.path">/home/yeagerist/CTWMscripts/backlightup</annotate>
+```
+
+---
 
 #### **Fonts**
 Font size maybe be adjusted for other resolutions.\
