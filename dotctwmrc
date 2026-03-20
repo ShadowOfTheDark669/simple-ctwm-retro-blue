@@ -89,8 +89,8 @@ Menu "Yum"
     "Show Network Device Status" f.exec "xterm -hold -e nmcli device status&"
     "Show WIFI Networks"         f.exec "xterm -e nmcli device wifi list&"   
     "--------------"             f.exec ""
-    "Increase Brightness++"      f.exec "xterm -e /home/yeagerist/CTWMscripts/backlightup&" 
-    "Decrease Brightness--"      f.exec "xterm -e /home/yeagerist/CTWMscripts/backlightdown&"
+    "Increase Brightness++"      f.exec "pkexec /home/yeagerist/CTWMscripts/backlightup&>/tmp/backlight.txt && rm /tmp/backlight.txt&" 
+    "Decrease Brightness--"      f.exec "pkexec /home/yeagerist/CTWMscripts/backlightdown&>/tmp/backlight.txt && rm /tmp/backlight.txt&" 
     "Turn Screen Off"            f.exec "sleep 1; xset dpms force off&"
     "--------------"             f.exec ""
     "Restart ctwm"               f.restart
@@ -102,7 +102,5 @@ Menu "Yum"
     "Shutdown"                   f.exec "loginctl poweroff"
     "--------------"             f.exec ""     
 
-#    "Reboot"                     f.exec "xterm -e sudo reboot&"
-#    "Shutdown"                   f.exec "xterm -e sudo poweroff&"
     
 }
