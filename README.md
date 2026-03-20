@@ -32,6 +32,7 @@ A Minimal and Non-Invasive set of configurations to pair up a modern, usable and
 20. xdg-desktop-portal-gtk
 21. loginctl
 22. alttab
+23. xclip
 ```
 Install these packages using your distro's package management tools and enable their service(s) if required.
 
