@@ -1,0 +1,6 @@
+/* Allow any user to run custom backlight scripts without authentication */
+polkit.addRule(function(action, subject) {
+    if (action.id == "ctwm.custom.backlight.up" || action.id == "ctwm.custom.backlight.down" ) {
+        return polkit.Result.YES;
+    }
+});
