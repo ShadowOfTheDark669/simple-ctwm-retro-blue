@@ -167,6 +167,9 @@ Edit the following section in `/usr/share/polkit-1/actions/ctwm.custom.backlight
 ```
 <annotate key="org.freedesktop.policykit.exec.path">/home/yeagerist/CTWMscripts/backlightup</annotate>
 ```
+**See:** https://wiki.archlinux.org/title/Polkit \
+**See:** https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html \
+**See:** https://www.freedesktop.org/software/polkit/docs/latest/pkexec.1.html 
 
 ---
 
